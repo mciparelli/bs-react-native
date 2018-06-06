@@ -1,3 +1,7 @@
+let currentHeight: int;
+
+let setHidden: (bool, ~animation: [ | `fade | `none | `slide]=?, unit) => unit;
+
 let setHidden: (bool, ~animation: [ | `fade | `none | `slide]=?, unit) => unit;
 
 let setBarStyle: ([ | `darkContent | `default | `lightContent], ~animated: bool=?, unit) => unit;

@@ -1,6 +1,8 @@
 [@bs.module "react-native"]
 external statusBar : ReasonReact.reactClass = "StatusBar";
 
+[@bs.module "react-native"] [@bs.scope "StatusBar"] external currentHeight : int = "";
+
 [@bs.scope "StatusBar"] [@bs.module "react-native"]
 external _setHidden : (bool, Js.Undefined.t(string)) => unit =
   "setHidden";
